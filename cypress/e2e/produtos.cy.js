@@ -8,10 +8,14 @@ describe('Funcionalidade Pagina de Produto', () => {
     
     
     it('', () => {
-        cy.get('.item-card')
-        .first()
+        cy.get('.item-card')      //classe item card.
+        //.first()
+        //.eq(3)
+        //.contains('Nome do produto.')
         .click()
     });
-
+    it('deve adicionar um produto ao carrinho', () => {
+        
+    });
 
 });
