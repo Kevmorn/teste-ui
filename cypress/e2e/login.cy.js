@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 
 beforeEach(() => {
-  cy.visit('https://www.kabum.com.br/login')
+cy.visit('login')
 });
 
 context('Funcionalidade Login', () => {
