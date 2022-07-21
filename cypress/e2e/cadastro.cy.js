@@ -20,4 +20,6 @@ context('Funciolalidade Pré Cadastro', () => {
         cy.get('.VfPpkd-muHVFf-bMcfAe').click()
         cy.get('#accountDetailsNext > .VfPpkd-dgl2Hf-ppHlrf-sM5MNb > .VfPpkd-LgbsSe > .VfPpkd-vQzf8d').click()
     });
+
+    
 });
