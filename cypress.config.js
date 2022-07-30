@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
     },
     baseUrl: 'https://www.kabum.com.br'
- 
+    
   },
 
 });

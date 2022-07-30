@@ -29,3 +29,14 @@ Cypress.Commands.add('login', (usuario, senha) => {
     cy.get('#inputSenhaLogin').type(senha)
     cy.get('#botaoLogin').click()
 })
+Cypress.Commands.add('preCadastro', ()=>{
+    cy.visit('https://accounts.google.com/signup')
+        cy.get('#firstName').type(fakerFirstName)
+        cy.get('#lastName').type(fakerLastName)
+        cy.get('#username').type(fakerFirstName)
+        cy.get('#passwd').type(fakerFirstName)
+        cy.get('#confirm-passwd').type(fakerFirstName)
+        cy.get('.VfPpkd-muHVFf-bMcfAe').click()
+        cy.get('#accountDetailsNext > .VfPpkd-dgl2Hf-ppHlrf-sM5MNb > .VfPpkd-LgbsSe > .VfPpkd-vQzf8d').click()
+    
+})
